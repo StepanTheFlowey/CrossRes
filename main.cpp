@@ -11,7 +11,7 @@ extern const char* resourceType;
 ResourceSize loadResourceSize(const uint32_t id) {
   ResourceSize resource;
 
-  HRSRC hResource = FindResourceA(NULL, MAKEINTRESOURCEA(id + 100), resourceType);
+  HRSRC hResource = FindResourceA(NULL, MAKEINTRESOURCEA(id + 200), resourceType);
   if(!hResource) {
     throw std::runtime_error("Failed to find Win32 resource");
   }
@@ -30,7 +30,7 @@ ResourceSize loadResourceSize(const uint32_t id) {
 ResourcePtrs loadResourcePtrs(const uint32_t id) {
   ResourcePtrs resource;
 
-  HRSRC hResource = FindResourceA(NULL, MAKEINTRESOURCEA(id + 100), resourceType);
+  HRSRC hResource = FindResourceA(NULL, MAKEINTRESOURCEA(id + 200), resourceType);
   if(!hResource) {
     throw std::runtime_error("Failed to find Win32 resource");
   }

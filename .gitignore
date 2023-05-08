@@ -70,3 +70,7 @@ ipch/
 *.vsp
 *.vspx
 *.sap
+
+#
+*.o
+lib*
