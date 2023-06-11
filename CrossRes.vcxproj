@@ -20,7 +20,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{44e32bca-97ec-49c2-98e8-fdd887d90bd6}</ProjectGuid>
-    <RootNamespace>CrossResWin32</RootNamespace>
+    <RootNamespace>CrossRes</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>CrossRes</ProjectName>
   </PropertyGroup>
